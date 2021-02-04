@@ -52,4 +52,17 @@ header{
 }
 .banner button{
     font-family: "Mulish",serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    background: #DA4453;
+    background: -webkit-linear-gradient(to right, #89216B, #DA4453);
+    background: linear-gradient(to top, #89216B, #DA4453);
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.banner button:hover{
+    opacity:0.8
 }
