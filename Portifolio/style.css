@@ -9,6 +9,11 @@
     list-style: none;
     text-decoration: none;
 }
+:root{ /*Fonte usada no site*/
+    --font-primay: "Baloo 2", serif;
+    --font-secundary:"Josefin Slab",serif;
+    --font-action:"Mulish",serif;
+}
 
 .hanburguer{
     /*background-color: red;*/
@@ -66,7 +71,7 @@ header{
 .banner h1{
     color: #ffffff;
     font-size: 3.5rem;
-    font-family: "Baloo 2", serif;
+    font-family: var(--font-primay);
     font-weight: 300;
     text-shadow: .2rem .3rem 2px rgb(0,0,0,.4);
     line-height: 3.5rem;
@@ -75,7 +80,7 @@ header{
     animation: movebanner 1s 0.5s forwards;
 }
 .banner p{
-    font-family:"Josefin Slab",serif;
+    font-family:var(--font-secundary);
     color: #fff;
     font-size: 2rem;
     text-shadow: .2rem .2rem rgb(0,0,0,.4);
@@ -85,7 +90,7 @@ header{
 
 }
 .banner button{
-    font-family: "Mulish",serif;
+    font-family: var(--font-action);
     color: #fff;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -128,5 +133,38 @@ header{
     transform: translate(-50%, 50%);
 }
 .menu-iten{
+    text-align: center;
+    margin-bottom:.3rem;
 
+}
+.menu-link{
+    font-family: var(--font-action);
+    font-size: 2rem;
+    color: #555;
+    transition: color 1s;
+}
+.menu-link:hover{
+    color: #6a3093;
+}
+
+.social-media{
+    position: absolute;
+    bottom: 2rem;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-media i{
+    background-color:#6a3093;
+    color: rgb(255, 255, 255,1);
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    transition: bachgraund-color: 1s;
+}
+.social-media i:hover{
+    background-color: #a044ff;
 }
