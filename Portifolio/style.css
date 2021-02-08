@@ -18,7 +18,7 @@
 .hanburguer{
     /*background-color: red;*/
     width: 2rem;
-    height: 2rem;
+    height: 2.1rem;
     position: fixed;
     z-index: 100;
     right: 2rem;
@@ -170,7 +170,7 @@ header{
 }
 .menu{
     position: absolute;
-    top: 40%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, 50%);
 }
