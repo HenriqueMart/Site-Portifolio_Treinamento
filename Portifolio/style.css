@@ -213,7 +213,5 @@ header{
 .conhecimentos{
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-}
-.conhecimentos{
-    
+    grid-template-rows:repeat(6, 4 rem) ;
 }
