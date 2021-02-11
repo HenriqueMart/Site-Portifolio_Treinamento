@@ -210,5 +210,8 @@ header{
 .social-media i:hover{
     background-color: #a044ff;
 }
-
+.conhecimentos{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
   
