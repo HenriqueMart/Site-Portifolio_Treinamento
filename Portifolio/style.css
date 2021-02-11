@@ -269,7 +269,7 @@ header{
 }
 .conhecimento-text{
     font-family: var(--font-secundary);
-    margin-top: 1rem;
+    margin-top: 0.1rem;
 }
 .conhecimentos-img-wrapper{
     grid-column: 7 /11;
