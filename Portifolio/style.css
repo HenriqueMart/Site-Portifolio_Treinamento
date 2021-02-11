@@ -256,4 +256,27 @@ header{
 }
 .conhecimento-header{
     display: flex;
+    align-items: center;
+}
+.conhecimento-header i{
+    font-size: 2.5rem;
+    color: #4b4b4b;
+}
+.conhecimento-header h3{
+    font-family: var(--font-secundary);
+    font-size: 2rem;
+    padding: 1rem;
+}
+.conhecimento-text{
+    font-family: var(--font-secundary);
+    margin-top: 1rem;
+}
+.conhecimentos-img-wrapper{
+    grid-column: 7 /11;
+    grid-row: 2 / 6;
+    width: 100%;
+}
+.conhecimentos-img-wrapper img{
+    object-fit: cover;
+    width: 100%;
 }
