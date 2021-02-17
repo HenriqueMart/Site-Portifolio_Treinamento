@@ -280,3 +280,13 @@ header{
     object-fit: cover;
     width: 100%;
 }
+.projetos{
+    display: flex;
+}
+.card{
+    width: 20rem;
+    height: 30rem;
+}
+.card-img-wrapper{
+    whi
+}
