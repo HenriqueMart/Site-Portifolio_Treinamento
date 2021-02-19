@@ -302,12 +302,19 @@ header{
     height: 100%;
     border-radius:.5rem;
     opacity: .8;
+    transition: opacity .3s;
+}
+.card:hover .card-img-wrapper img{
+    opacity: .5;
 }
 .card-info{
     position: absolute;
     bottom: 0;
+    opacity: 0;
+    visibility: hidden;
     padding: 2rem;
     text-shadow: 0.3rem 0.2rem 0.3rem rgb(0, 0, 0, .6);
+    transition: all .3s;
 }
 .card-info h2{
     font-family: var(--font-primay) ;
@@ -319,12 +326,14 @@ header{
     font-family: var(--font-secundary);
     font-weight: bolder;
     color: #ff4081;
+    margin-bottom: 1.5rem;
 }
 .card-info p{
     font-family: var(--font-secundary);
     color: #eee;
     font-weight: 400;
     width: 80%;
+    margin-bottom: 2rem;
 }
 .card-info button{
     width: 8rem;
@@ -333,9 +342,15 @@ header{
     background: -webkit-linear-gradient(to right, #89216B, #DA4453);
     background: linear-gradient(to top, #89216B, #DA4453);
     font-family: var(--font-action);
-    font-size: .5rem;
+    font-size: .7rem;
     color: #eee;
     border-radius: .5rem;
     border: none;
-    box-shadow: 0 .1rem .8rem rgb(0,0,0, .4);
+    box-shadow: 0 .1rem .8rem rgba(0,0,0, .4);
+}
+.card:hover .card-info{
+    bottom: 2rem;
+    opacity: 1;
+    visibility: visible;
+
 }
