@@ -366,6 +366,7 @@ header{
     width: 60%;
     height: 30rem;
     display: flex;
+    box-shadow: 0 2rem 3rem rgba(0,0,0,0.5);
 }
 .contato-left{
     width: 35%;
@@ -375,5 +376,39 @@ header{
 .contato-right{
     width: 65%;
     background-color: #eee;
-    padding: 3rem 10rem 10rem;
+    padding: 1rem 3rem 3rem 3rem;
+}
+.sessao-contato h1{
+    font-family: var(--font-primay);
+    text-align: center;
+    color: #272727;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+.sessao-contato form{
+    width: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-group{
+    position: relative;
+}
+.field{
+    background: transparent;
+    border: none;
+    width: 20rem;
+    font-size: 1.5rem;
+    font-family: var(--font-secundary);
+    border-bottom: 2px dashed #636363;
+    height: 3rem;
+    outline: none;
+    margin: 2rem 0;
+}
+.field-label{
+    position: absolute;
+    left: 0;
+    top: 1.5rem;
+    font-family: var(--font-secundary);
+    text-transform: uppercase;
 }
