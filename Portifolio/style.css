@@ -441,3 +441,26 @@ header{
     height: 2rem;
     margin-top: 0.9rem;
 }
+.sessao-orcamento{
+    width: 100%;
+    height: 100vh;
+    background: url(img/bg-orcamento.jpg);
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orcamento-wrapper{
+    width: 60%;
+    height: 80%;
+    background-color: #ffffff99;
+    border-bottom: 10px;
+    box-shadow: 0 0.1rem 0.3rem rgb(0, 0, 0, 0.5);
+    position: relative;
+}
+.sessao-orcamento h1{
+    position: absolute;
+    top: -2.5rem;
+    left: 2rem;
+    background-color: ;
+}
