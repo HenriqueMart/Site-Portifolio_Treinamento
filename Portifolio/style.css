@@ -500,4 +500,5 @@ header{
     text-transform: uppercase;
     padding: 1rem;
     cursor: pointer;
+    grid-column: 2;
 }
