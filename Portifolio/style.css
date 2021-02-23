@@ -462,5 +462,38 @@ header{
     position: absolute;
     top: -2.5rem;
     left: 2rem;
-    background-color: ;
+    background: #DA4453;
+    background: -webkit-linear-gradient(to right, #89216B, #DA4453);
+    background: linear-gradient(to top, #89216B, #8f2b35);
+    padding: 0 3rem;
+    color: #fff;
+    font-family: var(--font-primay);
+    font-size: 3rem;
+    font-weight: lighter;
+    box-shadow: 0 0.1rem 0.3rem rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.sessao-orcamento form{
+    margin: 4rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+.sessao-orcamento label{
+    font-family: var(--font-secundary);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.sessao-orcamento input[type="number"]{
+    font-family: var(--font-secundary);
+    width: 4rem;
+    font-size: 2rem;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 0.3rem;
+}
+.btn-submit{
+    
 }
