@@ -14,6 +14,9 @@
     --font-secundary:"Josefin Slab",serif;
     --font-action:"Mulish",serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .hanburguer{
     /*background-color: red;*/
@@ -27,9 +30,11 @@
     flex-direction: column;
     justify-content: space-evenly;
     cursor: pointer;
+    z-index: 160;
 }
 .show-menu .hanburguer{
     right: 16rem;
+    z-index: 160;
 }
 .line{
     width: 100%;
@@ -164,6 +169,7 @@ header{
     top: 0;
     right: -20rem;
     transition: all 1s;
+    z-index: 150;
 }
 .show-menu .sidebar{
     right: 0;
@@ -177,7 +183,6 @@ header{
 .menu-iten{
     text-align: center;
     margin-bottom:.3rem;
-
 }
 .menu-link{
     font-family: var(--font-action);
@@ -284,11 +289,11 @@ header{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: 70vh;
+    height: 100vh;
 }
 .card{
     width: 18rem;
-    height: 25rem;
+    height: 30rem;
     position: relative;
 }
 .card-img-wrapper{
@@ -501,4 +506,46 @@ header{
     padding: 1rem;
     cursor: pointer;
     grid-column: 2;
+}
+footer{
+    width: 100%;
+    height: 7rem;
+    background-color: #17181b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content p{
+    font-family: var(--font-secundary);
+    color: #a7a7a7;
+    font-size: 1.2rem;
+}
+.social-list a{
+    margin: 0 2rem;
+    color: #a7a7a7;
+    font-size: 1.3rem;
+}
+.social-list ul{
+    display: flex;
+}
+#link-topo{
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background: #DA4453;
+    background: -webkit-linear-gradient(to right, #89216B, #DA4453);
+    background: linear-gradient(to top, #89216B, #8f2b35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: .3rem;
+    box-shadow: 0 0.1rem 0.6rem #00000009;
 }
